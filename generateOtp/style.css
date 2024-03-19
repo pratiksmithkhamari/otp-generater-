@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ html,body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+li{
+    list-style: none;
+    border: 1px solid black;
+    border-radius: 40%;
+    height: 50px;
+    width: 50px;
+}
+
+.container{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    border-radius: 12px;
+    background: linear-gradient(to right, rgb(91, 135, 91),rgb(16, 70, 70));
+    flex-direction: column;
+    
+}
+#inputBox{
+    height: 30px;
+    width: 300px;
+    padding:10px ;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(7, 32, 32);
+    box-shadow: rgb(7, 32, 32)1px 2px 2px;
+}
+
+#heading{
+    text-transform: capitalize;
+    color: rgb(245, 243, 247);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+    text-shadow: rgb(7, 32, 32)1px 2px 2px;;
+}
+.btn{
+    padding: 5px 5px;
+    width:30%;
+    color: bisque;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    /* border: none; */
+    background-color: rgb(40, 40, 95);
+}
+
+.btn:active{
+    background-color: rgb(11, 11, 64)
+}
+.box{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
